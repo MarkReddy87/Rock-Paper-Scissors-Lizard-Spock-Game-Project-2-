@@ -12,34 +12,32 @@
     <title>Rock, Paper, Scissors, Lizard, Spok Game</title>
 </head>
 <body>
-    <h1 class="head">
-        <img class="spok-imgage" src="assets/images/spok.jpg" alt="spok-image">
-        Rock, Paper, Scissors, Lizard, Spok!
+    <h1>
+        <img src="assets/images/spok.jpg" alt="spok-image">
+        Rock, Paper, Scissors, Lizard, Spok
     </h1>
-    <h2 class="head2">Can you beat the computer???</h2>
+    <h2 class="head2">Can you beat the computer - Make your choice!</h2>
     
     <div class="game-box">
-        <div class="game">
-            <button class= "btn rock">
-                <i class="far fa-hand-rock" data-choice="rock"></i>
+            <button class= "btn btn-rock" data-type="rock">
+                <i class="far fa-hand-rock"></i>
             </button>
-            <button class= "btn paper">
-                <i class="far fa-hand-paper" data-choice="paper"></i>
+            <button class= "btn btn-paper" data-type="paper">
+                <i class="far fa-hand-paper"></i>
             </button>
-            <button class= "btn scissors">
-                <i class="far fa-hand-scissors" data-choice="scissors"></i>
+            <button class= "btn btn-scissors" data-type="scissors">
+                <i class="far fa-hand-scissors"></i>
             </button>
-            <button class= "btn lizard">
-                <i class="far fa-hand-lizard" data-choice="lizard"></i>
+            <button class= "btn btn-lizard" data-type="lizard">
+                <i class="far fa-hand-lizard"></i>
             </button>
-            <button class= "btn spok">
-                <i class="far fa-hand-spock" data-choice="sopk"></i>
+            <button class= "btn btn-spok" data-type="spok">
+                <i class="far fa-hand-spock"></i>
             </button>
-        </div>
     </div>
     <div class="score-box">
-        <p class="scores">Your Score is: <span id="wins">0</span></p>
-        <p class="scores">The Computer's Score is: <span id="losses">0</span></p>
+        <p>Your Score is: <span id="wins">0</span></p>
+        <p>The Computer's Score is: <span id="losses">0</span></p>
     </div>
     <script src="assest/js/script.js"></script>
 </body>

@@ -1,0 +1,65 @@
+body {
+    background-color: #0e165a;
+    color: #D5DDDE;
+    font-family: "Uchen", sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+}
+
+h2, p {
+    text-align: center;
+    font-size: 50px;
+}
+
+button {
+    margin-left: 40px;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    font-size: 75px;
+    border: 10px solid;
+    background-color: #0e165a;
+}
+
+.btn-rock {
+    border-color: red;
+    color: red;
+}
+
+.btn:hover {
+    background-color: #D5DDDE;
+}
+
+.btn-paper {
+    border-color: blue;
+    color: blue;
+}
+
+.btn-scissors {
+    border-color: rgb(179, 179, 50);
+    color: rgb(179, 179, 50);
+}
+
+.btn-lizard {
+    border-color: green;
+    color: green;
+}
+
+.btn-spok {
+    border-color: orange;
+    color: orange;
+}
+
+
