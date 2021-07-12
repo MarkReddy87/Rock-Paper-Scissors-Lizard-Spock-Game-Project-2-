@@ -84,16 +84,29 @@ As this project was a fairly simple single page site I did not create any digita
 
    One bug that I came across when validating the .html file was that I included alt attributes within the icon elements but this deemed to be unnecessary so they were removed.
    Another bug I found when testing the useability of the game was that when I decalred the choices array outside of the game functions the computer choice would stay the same so to fix this problem I declared the choices array within each game function to ensure the computer choice would always be different when a new game started.
-   
+
    ### 8.3 Supported Screens and Browsers
 
-
 ## 9. Deployment
+
    ### 9.1 via gitpod
+
+   This project was initially created in a [Github](https://github.com/) repository and then completly developed in a [Gitpod](https://gitpod.io/) workspace.
+
    ### 9.2 via github pages
+
+   Once the project was completed is was made live on the web through github pages. The exact steps are listed below:
+   * In the GitHub repository for the project find and click the settings tab.
+   * Scroll down to the bottom of the page and locate the GitHub Pages section and click the link which says 'Check it out here!'.  
+   * On the next page find the source heading and click the dropdown menu. Select main and then apply that setting.
+   * The site will now become live.
+   * If you wait a few minutes and refresh the page the live deployed link will be present.
+   * This link can now be shared with whomever you like!
+   
    [Please view my live project here!](https://markreddy87.github.io/Rock-Paper-Scissors-Lizard-Spock-Game-Project-2-/)
 
 
 ## 10. credits
 
 * [Font Awsome](https://fontawesome.com/) - All icons used for the buttons on the page were taken from the Font Awsome website.
+* [Google](https://www.google.com/) - The image used in the main heading of the site was taken directly from a google image search.
