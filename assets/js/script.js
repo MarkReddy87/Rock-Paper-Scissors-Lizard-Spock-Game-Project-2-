@@ -17,12 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
  });
+
+ let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
+    let compChoice = choices[Math.floor(Math.random()*5)]
  
  function rock () {
     alert("You chose Rock");
-
-    let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
-    let compChoice = choices[Math.floor(Math.random()*5)]
 
     if (compChoice == 'Rock'){
         alert("There was a Draw");
@@ -45,9 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
 function paper () {
     alert("You chose Paper!");
 
-    let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
-    let compChoice = choices[Math.floor(Math.random()*5)]
-
     if (compChoice == 'Paper'){
         alert("There was a Draw");
     } else if (compChoice == 'Rock'){
@@ -67,9 +64,6 @@ function paper () {
 
 function scissors () {
     alert("You chose Scissors!");
-
-    let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
-    let compChoice = choices[Math.floor(Math.random()*5)]
 
     if (compChoice == 'Scissors'){
         alert("There was a Draw");
@@ -91,9 +85,6 @@ function scissors () {
 function lizard () {
     alert("You chose Lizard!");
 
-    let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
-    let compChoice = choices[Math.floor(Math.random()*5)]
-
     if (compChoice == 'Lizard'){
         alert("There was a Draw");
     } else if (compChoice == 'Rock'){
@@ -113,9 +104,6 @@ function lizard () {
 
 function spock () {
     alert("You chose Spock!");
-
-    let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
-    let compChoice = choices[Math.floor(Math.random()*5)]
 
     if (compChoice == 'Spock'){
         alert("There was a Draw");
