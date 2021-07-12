@@ -28,12 +28,17 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("There was a Draw");
     } else if (compChoice == 'Paper'){
         alert("You lose :( Computer chose Paper!");
+        incrementLosses();
     } else if (compChoice == 'Scissors'){
         alert("You Win :D Computer chose Scissors!");
+        incrementWins();
     } else if (compChoice == 'Lizard') {
         alert("You Win :D Computer chose Lizard");
+        incrementWins();
     } else if (compChoice == 'Spock') {
         alert("You Lose :D Computer chose Spock");
+        incrementLosses();
+        
     }
 }
 
@@ -47,12 +52,16 @@ function paper () {
         alert("There was a Draw");
     } else if (compChoice == 'Rock'){
         alert("You Win :D Computer chose Rock!");
+        incrementWins();
     } else if (compChoice == 'Scissors'){
         alert("You Lose :( Computer chose Scissors!");
+        incrementLosses();
     } else if (compChoice == 'Lizard') {
         alert("You Lose :( Computer chose Lizard!");
+        incrementLosses();
     } else if (compChoice == 'Spock') {
         alert("You Win :D Computer chose Spock!");
+        incrementWins();
     }
 }
 
@@ -66,12 +75,16 @@ function scissors () {
         alert("There was a Draw");
     } else if (compChoice == 'Rock'){
         alert("You Lose :( Computer chose Rock!");
+        incrementLosses();
     } else if (compChoice == 'Paper'){
         alert("You Win :D Computer chose Paper!");
+        incrementWins();
     } else if (compChoice == 'Lizard') {
         alert("You Win :D Computer chose Lizard!");
+        incrementWins();
     } else if (compChoice == 'Spock') {
         alert("You Lose :( Computer chose Spock!");
+        incrementLosses();
     }
 }
 
@@ -85,12 +98,16 @@ function lizard () {
         alert("There was a Draw");
     } else if (compChoice == 'Rock'){
         alert("You Lose :( Computer chose Rock!");
+        incrementLosses();
     } else if (compChoice == 'Paper'){
         alert("You Win :D Computer chose Paper!");
+        incrementWins();
     } else if (compChoice == 'Scissors') {
         alert("You Lose :( Computer chose Scissors!");
+        incrementLosses();
     } else if (compChoice == 'Spock') {
         alert("You Win :D Computer chose Spock!");
+        incrementWins();
     }
 }
 
@@ -104,19 +121,25 @@ function spock () {
         alert("There was a Draw");
     } else if (compChoice == 'Rock'){
         alert("You Win :D Computer chose Rock!");
+        incrementWins();
     } else if (compChoice == 'Paper'){
         alert("You Lose :( Computer chose Paper!");
+        incrementLosses();
     } else if (compChoice == 'Scissors') {
         alert("You Win :D Computer chose Scissors!");
+        incrementWins();
     } else if (compChoice == 'Lizard') {
-        alert("You Lose :( Computer chose Spock!");
+        alert("You Lose :( Computer chose Lizard!");
+        incrementLosses();
     }
 }
 
 function incrementWins() {
-
+    let score = parseInt(document.getElementById("wins").innerText);
+    document.getElementById("wins").innerText = ++score;
 }
 
 function incrementLosses() {
-
+    let score = parseInt(document.getElementById("losses").innerText);
+    document.getElementById("losses").innerText = ++score;
 }
