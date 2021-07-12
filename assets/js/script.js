@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
- 
- function rock () {
+
+ function rock() {
     alert("You chose Rock");
 
     let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 }
 
-function paper () {
+function paper() {
     alert("You chose Paper!");
 
     let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
@@ -65,7 +65,7 @@ function paper () {
     }
 }
 
-function scissors () {
+function scissors() {
     alert("You chose Scissors!");
 
     let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
@@ -88,7 +88,7 @@ function scissors () {
     }
 }
 
-function lizard () {
+function lizard() {
     alert("You chose Lizard!");
 
     let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
@@ -111,7 +111,7 @@ function lizard () {
     }
 }
 
-function spock () {
+function spock() {
     alert("You chose Spock!");
 
     let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
