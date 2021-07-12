@@ -11,6 +11,11 @@ The rules of the game are as follows: Rock crushes Scissors, Rock crushes Lizard
 
 ## 2. user stories
 
+As a first time user 
+
+As a returning user 
+
+As a visually impared user 
 
 ## 3. Features
 
@@ -50,13 +55,21 @@ In this project I focused mostly on the JavaScript code and kept the HTML and CS
 
 ## 5. Typography and color scheme
 
+For this project I used mostly primary colors for the button elements to create a positive emotional response from the user as these colors are ones which everyone would immediatly recognise from their cildhood.
 
+For the background I used a dark / navy blue and a contrasting off white / gray color for the text. Doing this I felt that it gave the site some color while maintaing readability of the text for visually impaired users.
 
+The font-family used across the entire page is 'Uchen' which was taken directly from the [Google Fonts](https://fonts.google.com/?query=uchen) website and linked in the head element in the HTML file. It is an upright, block style Tibetan script which I thought looked quite formal and easy on the eye.
 
 ## 6. wireframes
 
+As this project was a fairly simple single page site I did not create any digital wireframes. I hand drew one on paper and was able to map out the area's I wanted to create and used it as a constant visual reference while writing the HTML document and the accompanying CSS file.
 
 ## 7. technology
+
+[HTML](https://en.wikipedia.org/wiki/HTML)
+[CSS](https://en.wikipedia.org/wiki/CSS)
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 
 ## 8. testing
