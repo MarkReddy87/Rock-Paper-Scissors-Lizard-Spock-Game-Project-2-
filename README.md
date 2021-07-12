@@ -110,3 +110,5 @@ As this project was a fairly simple single page site I did not create any digita
 
 * [Font Awsome](https://fontawesome.com/) - All icons used for the buttons on the page were taken from the Font Awsome website.
 * [Google](https://www.google.com/) - The image used in the main heading of the site was taken directly from a google image search.
+* [Adobe Color Wheel](https://color.adobe.com/create/color-wheel) - The Adobe Color Wheel site was used for the hex value colors on the page and the rest were taken from the color picker within GitPod
+* [Stack Overflow](https://stackoverflow.com/) - This site was used to verify code syntax and layout as well as general queries. 
