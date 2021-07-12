@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
  });
 
  let choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
-    let compChoice = choices[Math.floor(Math.random()*5)]
+    let compChoice = choices[Math.floor(Math.random()*5)];
  
  function rock () {
     alert("You chose Rock");
