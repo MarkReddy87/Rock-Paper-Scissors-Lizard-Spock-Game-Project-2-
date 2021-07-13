@@ -11,11 +11,9 @@ The rules of the game are as follows: Rock crushes Scissors, Rock crushes Lizard
 
 ## 2. User Stories
 
-As a first time user 
-
-As a returning user 
-
-As a visually impared user 
+* As a first time user of this page I want to immediatly understand the purpose of the site as well as intuitivly be able to asscess the features available to me so that I can play the game without any kind of learning curve.
+* As a young user I want the site to envoke an immediate posative emotional response through the use of images and color so it is a stress free and enjoyable experience from start ot finish.
+* As a fairly distracted person I want the game to be clutter free and easily playable with minimal movement around the screen as well as keeping a score tally so I can see how well or badly I am doing. 
 
 ## 3. Features
 
@@ -86,6 +84,10 @@ As this project was a fairly simple single page site I did not create any digita
    Another bug I found when testing the useability of the game was that when I decalred the choices array outside of the game functions the computer choice would stay the same so to fix this problem I declared the choices array within each game function to ensure the computer choice would always be different when a new game started.
 
    ### 8.3 Supported Screens and Browsers
+
+   * This project was developed and tested within the Google Browser. 
+   * Media queries were added to reduce the size of the elements by approx 25% for screen with a max width of 500px. 
+   * For screens with max width 320px the elements were reduced by approx 50% from their original size so as to make the site more readable on mobile devices.  
 
 ## 9. Deployment
 
