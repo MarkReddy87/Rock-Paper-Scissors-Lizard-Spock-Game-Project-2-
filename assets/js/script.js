@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("You Win :D Computer chose Lizard");
         incrementWins();
     } else if (compChoice == 'Spock') {
-        alert("You Lose :D Computer chose Spock");
+        alert("You Lose :( Computer chose Spock");
         incrementLosses();
         
     }
