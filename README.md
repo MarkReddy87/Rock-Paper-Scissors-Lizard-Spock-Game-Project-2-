@@ -25,21 +25,17 @@ Once the page has been loaded the user attention is immediatly draw to the image
 
 ![Heading layout](assets/images/heading_screenshot.PNG)
 
-
 The buttons are designed with bold eye catching icons and have been styled to match the heading image. 
 
 ![Button layout](assets/images/buttons_sceenshot.PNG)
-
 
 Once a button is clicked the user has made their choice and an alert will appear letting them know what they have chosen.
 
 ![Alert 1](assets/images/alert1_screenshot.PNG)
 
- Once the above alert is closed the program will then choose a random option from an array of choices and another alert will appear telling the user what the computers choice is and if they have won, lost or if there has been a draw. 
+Once the above alert is closed the program will then choose a random option from an array of choices and another alert will appear telling the user what the computers choice is and if they have won, lost or if there has been a draw. 
 
- ![Alert 2](assets/images/alert2_screenshot.PNG)
-
-
+![Alert 2](assets/images/alert2_screenshot.PNG)
 
 The user's score is updated accordingly at the bottom of the page once the second alert has been closed. 
 
@@ -68,7 +64,6 @@ As this project was a fairly simple single page site I did not create any digita
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-
 
 ## 8. Testing
 
@@ -105,7 +100,7 @@ As this project was a fairly simple single page site I did not create any digita
    * If you wait a few minutes and refresh the page the live deployed link will be present.
    * This link can now be shared with whomever you like!
    
-   [Please view my live project here!](https://markreddy87.github.io/Rock-Paper-Scissors-Lizard-Spock-Game-Project-2-/)
+[Please view my live project here!](https://markreddy87.github.io/Rock-Paper-Scissors-Lizard-Spock-Game-Project-2-/)
 
 
 ## 10. credits
