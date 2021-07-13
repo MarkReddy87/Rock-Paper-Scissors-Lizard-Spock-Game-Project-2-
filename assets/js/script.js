@@ -18,8 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-let alert;
-
  function rock() {
     alert("You chose Rock");
 
